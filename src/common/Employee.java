@@ -43,6 +43,11 @@ public class Employee implements Comparable {
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" + "lastName=" + lastName + ", firstName=" + firstName + ", ssn=" + ssn + '}';
+    }
+
     public String getSsn() {
         return ssn;
     }

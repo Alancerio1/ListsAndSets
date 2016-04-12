@@ -53,6 +53,7 @@ public class Lab {
         set.add(e2);
         set.add(e3);
         set.add(e4);
+        
           List<Employee> list = new ArrayList<Employee>();
         list.add(e1);
         list.add(e2);
